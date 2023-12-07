@@ -1,0 +1,15 @@
+{
+  "name": "notes_app_nodejs",
+  "version": "1.0.0",
+  "description": "add/edit/delete store notes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saikat Chatterjee",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "yargs": "^17.7.2"
+  }
+}
