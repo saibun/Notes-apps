@@ -130,6 +130,13 @@ n.delete = (title)=>{
         log(chalk.bgRed("Not present!"));
     }
 }
+//deleteAll notes
+n.deleteAll = ()=>{
+    let allNote = n.loadNote();
+    allNote = [];
+    n.writeIntoFile(allNote);
+    log(chalk.bgGreen("Successfully! all notes deleted"));
+}
 //load all notes
 n.loadNote =()=>{
     try{

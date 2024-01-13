@@ -117,5 +117,14 @@ yargs.command({
         notes.delete(argv.title);
     }
 })
+
+//deleteAll note command
+yargs.command({
+    command: "deleteAll",
+    description: "delete all notes",
+    handler(){
+        notes.deleteAll();
+    }
+})
 //calling yargs
 yargs.parse();
